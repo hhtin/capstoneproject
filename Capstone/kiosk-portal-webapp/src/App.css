@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.success-button{
+  background-color: #32a832;
+  color: #ffff;
+  font-weight: bold;
+}
+.warn-button{
+  background-color: #eb8f34;
+  color: #ffff;
+  font-weight: bold;
+}
+.danger-button{
+  background-color: #f25c5c;
+  color: #fff;
+  font-weight: bold;
+}
+.infor-button{
+  background-color: #61bfed;
+  color: #fff;
+  font-weight: bold;
+}
+.change-status-button{
+  background-color: #f5c105;
+  color: #fff;
+  font-weight: bold;
+}
+.infor-temp-1-button{
+  background-color: #3464a3;
+  color: #fff;
+  font-weight: bold;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.ql-align-justify img{
+  text-align: center;
+}
